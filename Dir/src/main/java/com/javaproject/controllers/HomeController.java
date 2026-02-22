@@ -154,7 +154,9 @@ public class HomeController {
 
     @GetMapping("/secured")
     public String goToSecured() {
+
         return "secured/gateway";
+        System.out.println("security app")
     }
 
     @GetMapping("/login")
