@@ -157,6 +157,7 @@ public class HomeController {
 
         return "secured/gateway";
         System.out.println("security app")
+         System.out.println("security application")
     }
 
     @GetMapping("/login")
