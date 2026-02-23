@@ -31,6 +31,7 @@
 
             <div th:if="${boardgames.empty}">
                 <p>Currently there is no boardgame database exists.</p>
+                 <p>Currently there is no boardgame database exists..</p>
             </div>
 
             <div sec:authorize="!hasRole('ROLE_USER')">

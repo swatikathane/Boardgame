@@ -156,8 +156,9 @@ public class HomeController {
     public String goToSecured() {
 
         return "secured/gateway";
-        System.out.println("security app")
-         System.out.println("security application")
+       // System.out.println("security app")
+       //  System.out.println("security application")
+         System.out.println("security appli");
     }
 
     @GetMapping("/login")
